@@ -1,0 +1,1010 @@
+#facebook #rightCol,                           /* right column */
+#facebook #appsNav,    /* apps */
+#facebook #pagesNav,    /* pages */
+#facebook #listsNav,    /* pages */
+#facebook #pagelet_welcome_box,     /* left column my name */
+#facebook #pinnedNav .navHeader,    /* "Favorites" */
+#facebook .uiSideNav .buttonWrap,     /* pencil icon */
+#facebook #pageLogoo,                         /* "Facebook" */
+#facebook #pageNav .tinyman .headerTinymanName,         /* Evan Brooks */
+#facebook #pagelet_composerr,    /* Status */
+#facebook #pagelet_ticker,           /* ticker */
+#facebook .fbSidebarGripper,        /* ticker gripper */
+#facebook .coverBorder,       /* timeline cover border */
+#facebook #navHome,             /* extra "home" nav link */
+#facebook #pageNav .navLink#findFriendsNav,    /* pointless "find friends" nav link */
+#facebook #boulder_fixed_header,
+#facebook .topSectionBottomBorder,
+#facebook #pagelet_friends_online, /* pile of friend faces */
+#facebook .fbTimelineSummarySectionWrapper .title, /* Timeline "about" label */
+#facebook ._40wv .item.music ._d3c,
+#facebook .fbChatOrderedList .item.music ._d3c,
+#facebook #sideNav .moreSectionsLink
+{
+  display: none;
+}
+
+#facebook .hasLeftCol #mainContainer, /* news feed border */
+#facebook .hasLeftCol #contentCol {
+  border: none;
+}
+
+#facebook .uiSideNav .item { /* side nav */
+  padding: 15px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+#facebook #groupsNav .navHeader a {
+  font-size: 0px;
+  border-top: 1px solid #DDD;
+  display: block;
+  width: 30px;
+  margin-bottom: 12px;
+}
+
+#facebook .uiSideNav .sideNavItem .imgWrap { /* side nav icons */
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+#facebook .uiStreamRedesign .uiStreamMessage .messageBody,
+#facebook .uiStreamLargeHeadline .uiStreamStory .uiStreamHeadline {
+  font-size: 15px;
+}
+
+#facebook #navSearch .uiTypeahead {  /* search box */
+  border: none;
+  padding: 3px;
+  margin-top: -3px;
+}
+
+#facebook #navSearch .uiSearchInput {
+  border: 0;
+}
+
+#facebook .uiSearchInput button { /* remove search box icon line */
+  background-position: -604px -20px;
+  right: 8px;
+}
+
+#facebook .uiSelectorNormal .uiSelectorButton {  /* big btns */
+  //padding: 8px 23px 8px 15px;
+}
+
+#facebook .UFIContainer .UFIRow {  /* news feed comments */
+  padding: 8px 12px;
+}
+
+#facebook .utn .UFIRow:hover{   /* news feed comments */
+  background: #E8EBF7;
+}
+
+#facebook .UFIRow {   /* news feed comments */
+  margin: 0px;
+}
+
+#facebook .uiTypeahead,   /* news feed comments */
+#facebook .uiTypeahead .wrap {
+  border: none !important;
+}
+
+#facebook ._3qx {   /* lightbox matte */
+  background-color: rgba(235,235,235,0.9);
+}
+
+#facebook #pageNav .tinyman .headerTinymanPhoto {  /* top nav prof pic bigger rounder */
+  height: 50px;
+  width: 50px;
+  margin-top: -1px;
+  border-radius: 50%;
+}
+
+#facebook #pageNav .navItem.firstItem {  /* top nav prof pick on right */
+  float: right;
+}
+
+#facebook #pageNav .navItem{    /* top nav spacing */
+  margin-left: 7px;
+}
+
+#facebook #pageNav .navLink::after {    /* top nav dividers */
+  content: none;
+}
+
+#facebook ._rw,
+#facebook ._rx
+{    /* news feed prof pic round */
+  //border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.2s;
+}
+
+#facebook ._rw:hover,
+#facebook ._rx:hover {
+  //-webkit-transform: scale(1.3);
+}
+
+#facebook .selectedStoryIndicator {  /* news feed select story */
+  background: #ffd;
+  background: transparent;
+  width: 4px;
+  border-radius: 0px;
+}
+
+#facebook .fbTimelineCapsule .fbTimelineUnit > .timelineUnitContainer {  /* timeline box no side border */
+  //border: none;
+  border-color: transparent;
+  border-radius: 5px;
+  //padding: 20px;
+}
+
+#facebook .timelineReportContainer .fbTimelineTwoColumn .timelineUnitContainer,
+#facebook .fbTimelineTwoColumn .timelineReportContainer .timelineUnitContainer {
+	border: none;
+}
+
+#facebook .timelineReportContainer .timelineReportHeader,
+#facebook .recentActivityContainer .recentActivityUnit .timelineReportHeader {
+	background: transparent;
+	border: 0;
+	padding: 15px 22px;
+}
+
+#facebook .fbTimelineCapsule .topBorder, /* timeline box no top/bot border */
+#facebook .fbTimelineCapsule .bottomBorder {
+  display: none;
+}
+
+#facebook #pagelet_home_stream ._4ks > .uiStreamStory { /* news feed spacing */
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+  border-color: #ddd;
+  margin-top: 8px;
+}
+
+#facebook .uiStreamPrivacy::after { /*news feed show full privacy */
+  content: attr(aria-label);
+  color: #AAA;
+  background: #FFD;
+  white-space: nowrap;
+  line-height: 2em;
+}
+
+#facebook .fbStreamPrivacy .lock { /* news feed privacy icon */
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+/*#facebook .fbStreamPrivacy {
+position: absolute;
+bottom: 20px;
+right: -170px;
+width: 170px;
+line-height: 1.3em;
+}*/
+
+#facebook .fbTimelineStickyHeaderHidden {
+  //top: 38px;
+}
+
+#facebook #pagelet_timeline_main_column {
+  //padding: 0 300px;
+  //margin: 0 -300px;
+  //background: #E7EBF2;
+}
+
+#facebook .uiSideNav .selectedItem .item {
+  text-decoration: underline;
+  background: transparent;
+}
+
+#facebook .slim #blueBar {
+  //border-color: #f2f2f2;
+  box-shadow: none;
+  //background: #f2f2f2;
+  //border-top: 3px solid #3B5998;
+}
+
+#facebook #headNav {
+  margin-left: 192px;
+}
+
+
+
+/*---------------------------------------------*/
+
+
+/* Timeline
+   ------ */
+
+
+#facebook .fbTimelineUFI .UFIContainer { /* timeline comments padding*/
+  //margin: 0 15px 20px;
+  margin: 0px -3px -1px;  
+  width: auto;
+}
+
+#facebook .fbTimelineFeedbackActions { /* timeline actions padding */
+  //margin: 0 15px;
+  margin: 0 -3px;
+  padding: 15px 20px;
+  background: transparent;
+}
+
+#facebook div.photoUnit { /* timeline photos centered */
+  margin: auto;
+}
+
+#facebook .fbTimelineTwoColumn .photoUnit .photoWidth1 .photoWrap { /* timeline photos smaller*/
+  height: 373px;
+  width: 373px;
+}
+
+#facebook .timelineUnitContainer .uiCommentContainer { /* timeline photo blends with comments */
+  padding-top: 20px;
+}
+
+#facebook .timelineReportContainer { /* timeline articles no border */
+  border: none;
+  border-radius: 5px;
+  padding-bottom: 80x;
+}
+
+#facebook .fbTimelineFriendsBoxLarge .friendListing { /* timeline friends more padding */
+  //margin: 30px 0 0 30px;
+}
+
+#facebook #fbTimelineHeadline .profilePic, /* round prof pic */
+#facebook #fbTimelineHeadline .profilePicThumb {
+  border-radius: 50%;
+  border: 0;
+  margin-top: -90px;
+  margin-bottom: -15px;
+  border-radius: 50%;
+}
+
+#facebook #fbTimelineHeadline .profilePic {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+}
+
+#facebook #fbTimelineHeadline .profilePicThumb {
+  position: relative;
+  //display: inline-block;
+  padding: 0;
+}
+
+#facebook #fbTimelineHeadline .photoContainer{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#facebook .fbStickyHeaderBreadcrumb { /* simpler sticky header*/
+  border: none;
+  box-shadow: none;
+}
+
+#facebook .fbTimelineStickyHeader .name .profileThumb .img {
+  border-radius: 50%;
+}
+
+ /* simpler sticky header */
+#facebook .fbStickyHeaderBreadcrumb.uiButtonGroup .buttonItem .uiButtonOverlay,
+#facebook .fbStickyHeaderBreadcrumb.uiButtonGroup span .uiButtonOverlay {
+  background: none;
+}
+
+#facebook .fbTimelineStickyHeader .back {
+  border-radius: 0 0 5px 5px;
+  background: transparent;
+  border: none;
+}
+
+#facebook .fbTimelineStickyHeader .actions {
+  padding: 8px 25px 0px 5px;
+}
+
+#facebook .fbTimelineStickyHeader {
+  background: #F1F2F6;
+  box-shadow: 0 0px 3px rgba(0,0,50,0.1);
+}
+
+#facebook .fbTimelineStickyHeader {
+  left: 0px;
+  right: 0px;
+  padding-right: 130px;
+}
+
+#facebook.sidebarMode .fbTimelineStickyHeader {
+  right: 235px;
+  padding-right: 100px;
+}
+
+#facebook .fbTimelineStickyHeader .stickyHeaderWrap {
+  position: relative;
+  margin: auto;
+}
+
+#facebook .fbTimelineStickyHeader .name {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#facebook .fbStickyHeaderBreadcrumb.uiButtonGroup {
+  background: transparent;
+  margin: 0px;
+}
+
+#facebook .fbStickyHeaderBreadcrumb.uiButtonGroup .uiButtonGroupItem {
+  padding: 10px;
+  border-color: rgba(0, 0, 0, .05);
+}
+
+#facebook .fbTimelineStickyHeader .name .profileThumb {
+  margin-top: 8px;
+}
+
+#facebook #fbProfileCover .coverWrap {
+  height: 415px;
+  -webkit-transition: height 1s;
+}
+
+#facebook #fbProfileCover .coverWrap:hover {
+  //height: 415px;
+}
+
+#facebook #contentArea .fbTimelineNavigationWrapper .about .frame {
+  background: transparent;
+  border: 0;
+}
+
+#facebook .timelineLayout .fbTimelineTopSection{
+  background: none;
+  border: 0;
+}
+
+#facebook .fbTimelineSummarySection {
+  padding: 0px;
+}
+
+#facebook .fbTimelineSummarySection .fbProfileBylineIconContainer .img {
+  left: 30px;
+}
+
+#facebook .fbTimelineNavigation #fbTimelineNavTopRow,
+#facebook .fbTimelineNavigation #fbTimelineNavSecondaryRow {
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0px;
+}
+
+#facebook .fbTimelineNavigation li {
+  float: none;
+  display: inline-block;
+}
+
+#facebook .fbTimelineNavigation .about.tile {
+  //padding-right: 47px;
+  vertical-align: top;
+  max-width: 550px;
+  padding: 30px 30px 30px 50px;
+  margin: -30px 30px -30px -50px;
+  -webkit-transition: background 0.2s, box-shadow 0.2s;
+}
+
+#facebook .fbTimelineNavigation .about.tile:hover {
+  background: rgba(0,0,50,0.02);
+  box-shadow: inset 0 1px 2px rgba(0,0,50,0.06);
+}
+
+#facebook .aboutMePagelet .fbTimelineSection {
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+#facebook .fbTimelineSummarySection .fbProfileBylineFragment {
+  overflow: visible;
+  font-size: 13px;
+  padding-left: 0px;
+  line-height: 1.6em;
+}
+
+#facebook .fbTimelineNavigation {
+  overflow-x: scroll;
+  background: #F1F2F6;
+  box-shadow: 0 0px 2px rgba(0,0,0,0.1);
+  white-space: nowrap;
+}
+
+#facebook .fbTimelineNavigation::-webkit-scrollbar {
+    height: 2px;
+}
+ 
+#facebook .fbTimelineNavigation::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.1); 
+}
+
+#facebook #timelineNavContent{
+  position: relative;
+}
+
+#timelineNavContent::before,
+#timelineNavContent::after {
+  content: " ";
+  position: absolute;
+  pointer-events: none;
+  top: 0px;
+  bottom: 0px;
+  z-index: 2;
+}
+
+#timelineNavContent::before{
+  background: -webkit-linear-gradient(left, #F1F2F6 0%,rgba(241, 242, 246, 0) 100%);
+}
+
+#timelineNavContent::after {
+  background: -webkit-linear-gradient(right, #F1F2F6 0%,rgba(241, 242, 246, 0) 100%);
+}
+
+#facebook .fbTimelineNavigation > .clearfix {
+  display: none;
+}
+
+#facebook .fbTimelineNavigationWrapper li.about:hover .frame .mat,
+#facebook .fbTimelineNavigationWrapper li:hover .tab .frame .mat,
+#facebook .fbTimelineNavigationWrapper a:hover .frame .mat {
+  border-color: transparent;
+}
+
+#facebook #contentArea .fbTimelineNavigationWrapper .about .frame,
+#facebook #contentArea .fbTimelineNavigationWrapper .about .frame .mat,
+#facebook .fbTimelineNavigationWrapper .friendshipAbout .detail {
+  overflow: visible;
+  border-color: transparent;
+}
+
+#facebook #fbTimelineHeadline .name {
+  overflow: visible;
+}
+
+#facebook #fbTimelineHeadline .profilePicThumb {
+  //margin-top: 0px;
+  left: 0px;
+  background: transparent;
+  box-shadow: 0;
+  padding: 0;
+}
+
+#facebook #fbTimelineHeadline h2 {
+  font-size: 26px;
+  line-height: 90%;
+  margin-left: 0px;
+  font-weight: normal;
+  font-weight: bold;
+  overflow: visible;
+  position: relative;
+  top: 0px;
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  margin-left: 25px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#facebook #fbProfileCover .coverNoImage {
+  border: none;
+  background: #F1F2F6;
+}
+
+#facebook .fbTimelineNavigationWrapper .seemore {
+  top: 0px;
+  display: none;
+}
+
+#facebook .fbTimelineTopSectionBase {
+  background: url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yQ/x/N8eF8pLkCCD.png) repeat-y center top;
+}
+
+#facebook #fbTimelineHeadline{
+  background: white;
+  box-shadow: 0 0px 2px rgba(0,0,0,0.1);
+  white-space: nowrap;
+}
+
+#facebook #fbTimelineHeadline .alternate_name {
+  font-size: 12px;
+}
+
+#facebook #fbTimelineHeadline .uiButtonGroup {
+  border: 0;
+  box-shadow: none;
+}
+
+#facebook #fbTimelineHeadline .uiButtonGroup .buttonItem .uiButtonOverlay,
+#facebook #fbTimelineHeadline .buttonItem .uiButtonOverlay:hover,
+#facebook #fbTimelineHeadline .uiButtonGroup span .uiButtonOverlay,
+#facebook #fbTimelineHeadline .uiButtonGroup span .uiButtonOverlay:hover {
+  background: none;
+}
+
+#facebook #fbTimelineHeadline .buttonItem .uiButtonOverlay:hover,
+#facebook #fbTimelineHeadline .uiButtonGroup span .uiButtonOverlay:hover {
+  background: #eee;
+}
+
+#facebook .FriendButton .uiButtonHover {
+  border-color: transparent;
+}
+
+#facebook .FriendButton .uiButtonHover .uiButtonText {
+  color: inherit;
+}
+
+#facebook .sx_6955f3 { /* top friends star */
+  background-position: -51px -266px;
+  -webkit-filter: invert(0.7);
+}
+
+#facebook .fbTimelineCapsule .spinePointer {
+  width: 0px;
+  height: 0px;
+  background-image: none;
+  border: 9px solid transparent;
+  border-right-color: white;
+}
+
+#facebook .fbTimelineTwoColumn[data-side="l"] .spinePointer {
+  border-left-color: white;
+  border-right-color: transparent;
+}
+
+
+/*---------------------------------------------*/
+
+
+/* Chat
+   ------ */
+
+#facebook .fbDockWrapper {  /* chat nub */
+  height: 35px;
+}
+
+#facebook .fbNubButton {  /* chat nub */
+  padding: 10px 15px;
+  background: #484B53;
+  color: white;
+  box-shadow: none;
+}
+
+#facebook .fbChatSidebar .fbChatOrderedList .separator .text {
+  background: #484B53;
+}
+
+#facebook .fbChatOrderedList .separator .dive .bar{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#facebook .fbDockChatBuddyListNub .fbNubButton .label .count strong {
+  color: #eee;
+}
+
+#facebook .fbChatOrderedList li a:hover,
+#facebook .fbChatTypeaheadView  li.selected {
+  background: rgba(0,0,0,0.2);
+  color: white;
+}
+
+#facebook .fbDockChatBuddyListNub {/* chat nub */
+  //height: 41px !important;
+}
+
+#facebook .fbDockChatTabFlyout .fbNubFlyoutBody{
+  background: white;
+}
+
+#facebook .fbChatSidebar {   /* chat sidebar */
+  border: none;
+  box-shadow: none;
+  background: #F1F2F6;
+  background: #484B53;
+  padding: 0 20px;
+  box-shadow: inset 1px 0 3px;
+}
+
+#facebook .fbNubFlyoutTitlebar,
+#facebook .fbNubFlyoutBody {
+  background: #484B53;
+  padding: 6px 10px;
+}
+
+#facebook .fbChatSidebar .fbChatSidebarMessage {
+  background: none;
+  border: 0;
+  box-shadow: none;
+}
+
+#facebook .fbChatGoOnlineLink {
+  color: white;
+}
+
+#facebook .fbChatSidebar.offline .fbChatSidebarMessage .img,
+#facebook .fbDockChatBuddyListNub .fbNubButton .icon {
+  -webkit-filter: invert(0.7);
+}
+
+#facebook #pagelet_sidebar div.fbChatSidebarDropdown .uiCloseButton,
+#facebook .fbChatSidebar .toggle.button {
+  background-color: white;
+}
+
+#facebook .fbChatSidebar ._40pz {
+  bottom: 20px;
+  opacity: 0.2;
+  -webkit-transition: opacity 0.2s;
+}
+
+#facebook .fbChatSidebar ._40pz:hover {
+  opacity: 1;
+}
+
+#facebook .fbChatOrderedList li a,
+#facebook .fbChatTypeaheadView  li .text{
+  color: #A1A8B6;
+  padding: 2px 20px 2px 20px;
+  margin: 0 -20px;
+}
+
+#facebook .fbChatSidebar .fbChatSidebarFooter {  /* chat sidebar searchbar */
+  padding: 10px;
+  margin-left: -20px;
+  display: block;
+  border: none;
+}
+
+/*---------------------------------------------*/
+
+
+/* Compose
+   ------ */
+
+#pagelet_composer {
+  //background: #F1F2F6;
+}
+
+#pagelet_composer ._1dsp,
+.fbTimelineComposerUnit ._1dsp {
+  background: transparent;
+  border: 0;
+}
+
+#pagelet_composer ._2yg {
+  border: 0;
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.fbTimelineComposerUnit ._2yg {
+  border: 0;
+  border-top: 1px solid #DDD;
+  border-radius: 0;
+  padding: 4px 8px;
+  margin: 0 -6px;
+}
+
+.fbTimelineComposerUnit ._1dsl {
+margin: -2px -5px 0px;
+background: #F1F2F6;
+}
+
+#pagelet_composer .uiTypeahead .textInput {
+  -webkit-transition: min-height 0.4s;
+}
+
+#facebook #pagelet_composer ._4n ._2wr {
+  width: 0px;
+  height: 0px;
+  top: 14px;
+  left: -2px;
+  background-image: none;
+  border: 9px solid transparent;
+  border-bottom-color: white;
+}
+
+#facebook #pagelet_composer ._4n ._2wr::before {
+  content: " ";
+  top: -11px;
+  left: -10px;
+  position: absolute;
+  border: 10px solid transparent;
+  border-bottom-color: #ccc;
+  z-index: -1;
+}
+
+#facebook #pagelet_composer ._1dsq,
+#facebook .fbTimelineComposerUnit ._1dsq {
+  border: 0;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+#facebook #pagelet_composer ._1dsl {
+  padding: 0;
+}
+
+#facebook #pagelet_composer ._1dsm {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+#facebook #pagelet_composer ._4ki._6-i._1dsl > li {
+  //padding: 10px 0px;
+  margin: 0 15px -1px 15px;
+}
+
+#facebook #pagelet_composer ._4ki._6-i > li > a {
+  color: #aaa;
+  padding: 0 0 18px 25px;
+  width: 70px;
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+#facebook .fbTimelineComposerUnit ._4ki > li > a {
+  color: #aaa;
+  font-weight: normal;
+  white-space: nowrap;
+  width: 70px;
+}
+
+#facebook .fbTimelineComposerUnit ._4ki > ._4n> a {
+  font-weight: bold;
+  color: #222;
+}
+
+#facebook #pagelet_composer ._4ki._6-i > li > a:hover {
+  text-decoration: none;
+}
+
+#facebook #pagelet_composer ._4ki._6-i > ._4n > a {
+  color: #222;
+  font-weight: bold;
+}
+
+#facebook #pagelet_composer ._4ki._6-i > li > a > .img,
+#facebook .fbTimelineComposerUnit ._4ki > li > a > .img {
+  //display: none;
+}
+
+#facebook .uiButton {
+  border-radius: 1px;
+  background: transparent;
+  border-color: transparent;
+  box-shadow: 0 0 0 3px transparent;
+  -webkit-transition: opacity 0.2s;
+}
+
+#facebook .uiButton + .uiButton {
+  margin-left: 15px;
+}
+
+#facebook .uiButtonConfirm,
+#facebook ._42g- {
+  border-radius: 1px;
+  box-shadow: none;
+  border-color: #5B74A8;
+  background: #5B74A8;
+  box-shadow: 0 0 0 3px #5B74A8;
+  -webkit-transition: opacity 0.2s;
+}
+
+#facebook .uiButtonConfirm:hover,
+#facebook .uiButton:hover {
+  opacity: 0.8;
+}
+
+#facebook .uiSelectorNormal .uiButtonSuppressed {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: 0 0 0 3px transparent;
+}
+
+/*---------------------------------------------*/
+
+
+/* Popover cards
+   ------------- */
+
+
+#facebook ._7lt ._7ls,
+#facebook ._7lt ._7lw {
+  border-radius: 50%;
+}
+
+#facebook  ._k5 {
+  border: 0;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 
+              0 1px 3px rgba(0,0,0,0.2),
+              0 20px 65px rgba(0,0,0,0.2);
+  -webkit-animation: pop 0.2s linear 1;
+}
+
+#facebook  .uiContextualLayerLeft ._k5 {
+  -webkit-transform-origin: right center;
+}
+
+#facebook  .uiContextualLayerBelowLeft ._k5 {
+  -webkit-transform-origin: left top;
+}
+
+#facebook  .uiContextualLayerAboveLeft ._k5 {
+  -webkit-transform-origin: left bottom;
+}
+
+#facebook  .uiContextualLayerBelowRight ._k5 {
+  -webkit-transform-origin: right top;
+}
+
+#facebook  .uiContextualLayerAboveRight ._k5 {
+  -webkit-transform-origin: right bottom;
+}
+
+@-webkit-keyframes pop {
+  0% {
+    -webkit-transform: scale(0.5);
+  }
+  35% {
+    -webkit-transform: scale(0.9);
+  }
+  70% {
+    -webkit-transform: scale(1.04);
+  }
+  85% {
+    -webkit-transform: scale(0.98);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+#facebook .uiBoxGray {
+  border: 0;
+  background: transparent;
+}
+
+#facebook ._a5e._kc ._a5i {
+  display: none;
+}
+
+
+/*---------------------------------------------*/
+
+
+/* Jewels
+   ------ */
+
+
+#facebookk .home #fbNotificationsJewel{
+  position: absolute;
+  left: -85px;
+  top: 75px;
+}
+
+#facebookk .home #fbNotificationsJewel a.jewelButton {
+  display: inline-block;
+}
+
+#facebookk .home #fbNotificationsJewel a.jewelButton::after {
+content: "Notifications";
+color: #333;
+margin-left: 30px;
+line-height: 30px;
+padding: 7px 5px 7px 42px;
+margin-left: -10px;
+margin-top: -5px;
+position: absolute;
+z-index: -999;
+  width: 130px;
+  border-radius: 3px;
+}
+
+#facebookk .home #fbNotificationsJewel a.jewelButton:hover:after {
+  background: #EFF2F7;
+}
+
+#facebookk .home #fbNotificationsJewel a.jewelButton:hover{
+  background-color: transparent;
+}
+
+#facebook .home #leftCol {
+  position:fixed;
+  top: 45px;
+}
+
+#facebookk .home #fbNotificationsFlyout {
+  left: 170px;
+  border: none;
+  box-shadow: none;
+  top: 0px;
+}
+
+#facebookk .home #fbNotificationsFlyout .beeperNubWrapper{
+  display: none;
+}
+
+#facebook .timelineLayout,
+#facebook .fbTimelineTimePeriod {
+  background-color: #E0E5EC;  
+}
+
+#facebook .fbTimelineTwoColumn .photoUnit .photoWidth3 .photoWrap {
+  width: 116px;
+  height: 116px;
+  }
+
+#facebook .timelineLayout ._li {
+  overflow: hidden;
+}
+
+@media (max-width: 1800px){
+  #facebook .fbTimelineNavigation {
+    margin: 0 -310px 0 -220px;
+    padding: 30px 310px 0 220px;
+  }
+
+  #timelineNavContent::before {
+    width: 220px;
+    left: -220px;
+  }
+  #timelineNavContent::after{
+    width: 310px;
+    right: -310px;
+  }
+
+  #facebook .timelineLayout #fbProfileCover .cover {
+    margin: 0 -310px 0 -220px;
+  }
+
+  #facebook #fbTimelineHeadline{
+    margin: 0px -310px 0 -220px;
+    padding: 0px 310px 0 220px;
+  }
+}
+
+/*---------------------------------------------*/
+
+
+/* Scaling
+   ------ */
+
+
+@media (max-width: 1200px){
+  #facebook .fbTimelineNavigation {
+    margin: 0 -250px 0 -120px;
+    padding: 30px 250px 0 120px;
+  }
+
+  #facebook .timelineLayout #fbProfileCover .cover {
+    margin: 0 -250px 0 -120px;
+  }
+
+  #facebook #fbTimelineHeadline{
+    margin: 0px -250px 0 -120px;
+    padding: 0px 250px 0 120px;
+  }
+
+  #timelineNavContent::before {
+    width: 120px;
+    left: -120px;
+  }
+  #timelineNavContent::after{
+    width: 250px;
+    right: -250px;
+  }
+
+}
