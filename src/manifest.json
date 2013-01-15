@@ -3,18 +3,13 @@
 
   "name": "Fussy",
   "description": "Make facebook less fussy",
-  "version": "1.0",
+  "version": "1.0.1",
   "background": { "scripts": ["background.js"] },
   "content_scripts": [ 
     { 
       "matches": ["https://*.facebook.com/*"], 
       "css": ["fb.css"] 
     }
-  ],
-
-  "permissions" : [
-    "tabs",
-    "webNavigation"
   ],
   "icons" : {
     "48" : "icon-48.png",
